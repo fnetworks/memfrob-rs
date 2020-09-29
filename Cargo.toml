@@ -1,0 +1,8 @@
+[package]
+name = "memfrob"
+description = "A rust implementation of the GNU LibC 'memfrob' function"
+version = "1.0.0"
+authors = ["Felix Solcher <felix.solcher@gmail.com>"]
+edition = "2018"
+license = "Unlicense"
+repository = "https://github.com/fnetworks/memfrob-rs"
