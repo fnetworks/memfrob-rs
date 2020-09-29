@@ -1,6 +1,8 @@
 //! A rust implementation of the popular GNU LibC `memfrob` function.
 
-use std::ops::BitXorAssign;
+#![no_std]
+
+use core::ops::BitXorAssign;
 
 /// Encrypts the slice s by exclusive-ORing each element with the number 42, converted into T.
 ///
